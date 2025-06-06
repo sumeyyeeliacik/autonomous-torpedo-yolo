@@ -88,7 +88,7 @@ class Torpedo:
             exit(1)
 
     def build_model(self, is_cuda=True):
-        self.net = cv2.dnn.readNet("/home/creatiny/underwater/models/12_08_cember_pro.onnx")
+        self.net = cv2.dnn.readNet("/home/creatiny/underwater/models/cember_15_07_m.onnx")
         if True:
             print("Attempty to use CUDA")
             self.net.setPreferableBackend(cv2.dnn.DNN_BACKEND_CUDA)
