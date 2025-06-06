@@ -15,7 +15,7 @@ This project is part of an Autonomous Underwater Vehicle (AUV) developed by our 
 
 ## File Structure
 
-├── torpedo2.py # Main control and detection script
+├── torpedo.py # Main control and detection script
 
 ## Model
 
